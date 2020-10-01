@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package fabiosebastiano.go_grpc;
+
+option go_package = "pb";
+
+message Memory {
+  enum Unit {
+    UNKOWN = 0;
+    BIT = 1;
+    BYTE = 2;
+    KYLOBYTE = 3;
+    MEGABTE = 4;
+    GIGABYTE = 5;
+    TERABYTE = 6;
+  }
+  uint64 value = 1;
+  Unit unit = 2;
+}
