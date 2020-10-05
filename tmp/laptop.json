@@ -1,0 +1,60 @@
+{
+    "id": "f1fc1d88-6ef2-4e18-a978-c784567975af",
+    "brand": "LENOVO",
+    "name": "Thinkpad X1",
+    "cpu": {
+        "brand": "INTEL",
+        "name": "Core i7",
+        "numberCores": 5,
+        "numberThreads": 8,
+        "minGhz": 2.3806838400234747,
+        "maxGhz": 4.3678506606417375
+    },
+    "ram": {
+        "value": "38",
+        "unit": "GIGABYTE"
+    },
+    "gpus": [
+        {
+            "brand": "NVIDIA",
+            "name": "RTX 1",
+            "minGhz": 1.3236951052428738,
+            "maxGhz": 1.456701313416594,
+            "memory": {
+                "value": "4",
+                "unit": "GIGABYTE"
+            }
+        }
+    ],
+    "storages": [
+        {
+            "driver": "SSD",
+            "memory": {
+                "value": "997",
+                "unit": "GIGABYTE"
+            }
+        },
+        {
+            "driver": "HDD",
+            "memory": {
+                "value": "4",
+                "unit": "TERABYTE"
+            }
+        }
+    ],
+    "screen": {
+        "sizeInch": 21.324162,
+        "resolution": {
+            "width": 3464,
+            "height": 1949
+        },
+        "panel": "OLED"
+    },
+    "keyboard": {
+        "layout": "QWERTY"
+    },
+    "weightKg": 1.6893411710271788,
+    "priceUsd": 1727.924645341118,
+    "releaseYear": 2004,
+    "updatedAt": "2020-10-02T13:47:03.345159Z"
+}

@@ -7,4 +7,7 @@ clean:
 run:
 	go run main.go
 
-PHONY: gen clean run
+test:
+	go test -cover -race ./...
+
+PHONY: gen clean run test
